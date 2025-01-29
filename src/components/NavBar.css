@@ -27,6 +27,21 @@
     background-color: darkgray;
 }
 
+@media (prefers-color-scheme: light) {
+    .navbar li a {
+        color: black;
+    }
+
+    .navbar li a:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .navbar li a:active {
+        background-color: darkgray;
+    }
+}
+
 .bottom-bar {
     width: 100%;
 }
